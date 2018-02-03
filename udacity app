@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/future"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO     UDACITY"
+        android:textSize="32sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:paddingTop="10dp"
+        android:gravity="center_horizontal"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Udacity
+2465 Latham St
+Mountain View, CA 94043
+650-555-5555"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/udacitypng2" />
+
+</RelativeLayout>
